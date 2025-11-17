@@ -8,64 +8,86 @@
 </head>
 <body>
     <div class="main-container"> 
+
         <div class="side-sector">
-   
-            <p> Photo by:  <a href="https://unsplash.com/pt-br/@dennis_tm">Dennis Mita</a></p>
-        </div>
-        <div class="welcome-sector">
-         <h5>This is not a real online service! You know you need something like thin in your life to help you realize your deepests dereamss.
-        Sign up now to get started.        
-        </h5>
-          <h5> You know you want to.</h5>    
-        </div>
-     
-    <div class="form-container">
-       
-      <h4>Let's do this!</h4>
-               <form id="signup-form">
-    <h2>Sign Up</h2>
 
-    <div class="form-grid">
-        <div class="form-group">
-            <label for="firstname">Full Name:</label>
-            <input type="text" id="firstname" name="firstname" required>
+            <div class="logo-box">
+                <img src="img/logo.png" alt="Rabbit Corp logo">
+                <p>Rabbit Corp</p>
+
+            </div>
+            <p class="bottom-text">
+                Photo by: <a href="https://unsplash.com/pt-br/@dennis_tm">Dennis Mita</a>
+            </p>
         </div>
 
-        <div class="form-group">
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname" required>
+        <div class="right-column">
+            <div class="welcome-sector">
+                <h2>
+                    This is not a real online service! You know you need something like this in your life
+                    to help you realize your deepest dreams. Sign up now to get started.
+                </h2>
+                <br>
+                <h2>You know you want to.</h2>    
+            </div>
+
+
+
+            <div class="form-container">
+
+                <form id="signup-form">
+
+                    <div class="form-grid">
+                      
+                        <h4>Let's do this!</h4>
+
+            
+                        <div class="form-group">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+
+                     
+                       
+                    </div>
+
+                </form>
+                
+            </div>
+             <button type="submit" class="submit-btn">Create Account</button>
+
+                        <div class="login-redirect">
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                        </div> 
         </div>
-
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
-        </div>
-
-        <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-
-        <div class="form-group">
-            <label for="confirm-password">Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
-        </div>
-    </div>
-
-    <button type="submit">Create Account</button>
-</form>
-
-        
-        <div class="login-redirect">
-            <p>Already have an account? <a href="#">Log in</a></p>
-    </div>  
     </div>
   
-        <script src="script.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
