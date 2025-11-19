@@ -10,11 +10,9 @@
     <div class="main-container"> 
 
         <div class="side-sector">
-
             <div class="logo-box">
-                <img src="img/logo.png" alt="Rabbit Corp logo">
-                <p>Rabbit Corp</p>
-
+                <img src="img/logo.png" alt="Odin logo">
+                <h1>The Rabbit</h1>
             </div>
             <p class="bottom-text">
                 Photo by: <a href="https://unsplash.com/pt-br/@dennis_tm">Dennis Mita</a>
@@ -23,71 +21,64 @@
 
         <div class="right-column">
             <div class="welcome-sector">
-                <h2>
+                <p>
                     This is not a real online service! You know you need something like this in your life
-                    to help you realize your deepest dreams. Sign up now to get started.
-                </h2>
-                <br>
-                <h2>You know you want to.</h2>    
+                    to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>    
             </div>
 
-
-
             <div class="form-container">
-
-                <form id="signup-form">
+                <form action="https://httpbin.org/post"  method="post" id="signup-form"  >
+                    <h2>Let's do this!</h2>
 
                     <div class="form-grid">
-                      
-                        <h4>Let's do this!</h4>
-
-            
                         <div class="form-group">
-                            <label for="firstname">First Name:</label>
+                            <label for="firstname">FIRST NAME</label>
                             <input type="text" id="firstname" name="firstname" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="lastname">Last Name:</label>
+                            <label for="lastname">LAST NAME</label>
                             <input type="text" id="lastname" name="lastname" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="email">Email:</label>
+                            <label for="email">EMAIL</label>
                             <input type="email" id="email" name="email" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="phone">Phone Number:</label>
+                            <label for="phone">PHONE NUMBER</label>
                             <input type="tel" id="phone" name="phone" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="password">Password:</label>
+                            <label for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" required>
+                            <span id="password-error" class="error-msg"></span>
                         </div>
 
                         <div class="form-group">
-                            <label for="confirm-password">Confirm Password:</label>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
                             <input type="password" id="confirm-password" name="confirm-password" required>
+                       <span id="confirm-error" class="error-msg"></span>
                         </div>
-
-                     
-                       
                     </div>
 
-                </form>
-                
+                    
+             
+              
             </div>
-             <button type="submit" class="submit-btn">Create Account</button>
-
-                        <div class="login-redirect">
-                            <p>Already have an account? <a href="#">Log in</a></p>
-                        </div> 
+            
+            <div class="login-redirect">
+                <button type="submit" class="submit-btn">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div> 
+               </form>
         </div>
     </div>
   
     <script src="script.js"></script>
-
 </body>
 </html>
